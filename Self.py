@@ -54,9 +54,9 @@ helpMessage ="""
 ► Kill ban
 """
 
-mid = cl.getProfile().mid
-Creator="u31ef22df7f538df1d74dc7f756ef1a32"
-admin=[mid,"u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1"]
+mid = cl.getProfile().mid ["u5fa7952657bbe27314d703b83c016044"]
+Creator="u5fa7952657bbe27314d703b83c016044"]
+admin=[mid,"u5fa7952657bbe27314d703b83c016044"]
 
 contact = cl.getProfile()
 profile = cl.getProfile()
@@ -275,7 +275,7 @@ def bot(op):
 #--------------------------------------------------------
             elif msg.text in ["Creator"]:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': Creator}
+                msg.contentMetadata = {'mid': 'u5fa7952657bbe27314d703b83c016044'}
                 cl.sendMessage(msg)
 		cl.sendText(msg.to,"Itu Yang Bikin BOT")
 #--------------------------------------------------------
@@ -392,7 +392,7 @@ def bot(op):
                 wait["Contact"] = False
                 cl.sendText(msg.to,"Contact inActive")
 #--------------------------------------------------------
-            elif msg.text in ["Status"]:
+            elif msg.text in ["Status","Set"]:
                 md = ""
 		if wait["AutoJoin"] == True: md+="✦ Auto join : on\n"
                 else: md +="✦ Auto join : off\n"
@@ -440,7 +440,7 @@ def bot(op):
                 cl.sendMessage(msg)
 
 #--------------------------------------------------------
-	    elif "Tagall" == msg.text:
+	    elif "Halo" == msg.text:
 		group = cl.getGroup(msg.to)
 		mem = [contact.mid for contact in group.members]
 		for mm in mem:
@@ -454,7 +454,7 @@ def bot(op):
 		    except Exception as e:
 			print str(e)
     #-------------Fungsi Tag All Start---------------#
-            elif msg.text in ["Emak"]:
+            elif msg.text in ["Tag"]:
                   group = cl.getGroup(msg.to)
                   nama = [contact.mid for contact in group.members]
                   cb = ""
@@ -476,7 +476,7 @@ def bot(op):
                   except Exception as error:
                       print error
                       
-            elif msg.text in ["Abah"]:
+            elif msg.text in ["Tagall"]:
             	 if msg.from_ in admin:              
                   group = cl.getGroup(msg.to)
                   nama = [contact.mid for contact in group.members]
