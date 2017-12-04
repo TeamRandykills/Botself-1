@@ -54,9 +54,10 @@ helpMessage ="""
 ► Kill ban
 """
 
-mid = cl.getProfile().mid ["u5fa7952657bbe27314d703b83c016044"]
-Creator="u5fa7952657bbe27314d703b83c016044"]
-admin=[mid,"u5fa7952657bbe27314d703b83c016044"]
+mid = cl.getProfile().mid 
+["u5fa7952657bbe27314d703b83c016044"]
+Creator=["u5fa7952657bbe27314d703b83c016044"]
+admin=["u5fa7952657bbe27314d703b83c016044"]
 
 contact = cl.getProfile()
 profile = cl.getProfile()
