@@ -7,7 +7,7 @@ import time,random,sys,json,codecs,threading,glob,re,ast,os,subprocess,requests
 
 cl = LINETCR.LINE()
 #cl.login(qr=True)
-cl.login(token='') #kris 
+cl.login(token="Endzpjph8Ohi8d64Ej74.x6EvjLE74Nmu1Wo4pafGra.Inv6WB0qFxfnBx69/C5TdqNg6c3s3C3mFKrcZU1he7w=")
 cl.loginResult()
 print "===[Login Success]==="
 
@@ -28,7 +28,7 @@ helpMessage ="""
 ► Autokick:on/off
 ► Contact:on/off
 ► Gift (1,2,3)
-► Tagall / Abah
+► Tagall / Tag/Halo
 ► Setview / Cctv
 ► Viewseen / Intip
 ► Boom
