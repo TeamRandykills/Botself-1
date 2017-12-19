@@ -12,7 +12,7 @@ from threading import Thread
 
 
 def def_callback(str):
-    print(str)
+    print(str))
 
 class LINE:
 
