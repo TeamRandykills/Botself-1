@@ -54,7 +54,7 @@ class Channel:
         print "obs_token:" + result.obsToken
         print "refreshToken:" + result.refreshToken
 
-    def new_post(self, text):
+    def new_post(self, text)):
 
         header = {
             "Content-Type": "application/json",
